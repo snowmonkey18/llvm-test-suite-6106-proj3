@@ -1,5 +1,5 @@
 LEVEL = ../../..
-PARALLEL_DIRS  := cfrac espresso gs
+PARALLEL_DIRS  := cfrac espresso
 
 # cfrac mixes pointers and ints.  Thus doesn't work on alpha.
 ifeq ($(ARCH),Alpha)
